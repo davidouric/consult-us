@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #3089c0;
+    border-bottom: 1px solid #e9ecef;
+    /*padding: 0.1rem 0;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    position: sticky;
+    /*top: -8px;
+    left: -8px;*/
+    z-index:100 ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -8px;
+    height: 80px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    margin-left: 4rem;
+    font-size: 1.5rem;
+
+}
+.nav-links{
+    display: flex;
+    gap:2rem;
+    list-style-type: none;
+}
+.nav-links li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-links li a:hover{
+    color: #0a303a;
+}
+.profile{
+    margin-right: 4rem;
+}
