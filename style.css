@@ -91,3 +91,52 @@ main{
     cursor: pointer;
     font-size: larger;
 }
+/*section*/
+section{
+    background-color: #629990;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.card1{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding:  0.5rem 2rem;
+    width: 300px;
+    height: 400px;
+    text-decoration: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    margin-top: -10rem;
+}
+.card1-header{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.card1-header p{
+    margin-left: auto;
+    background-color: #3089c0;
+    color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 5px;
+
+}
+.card2{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
