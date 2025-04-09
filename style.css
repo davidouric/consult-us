@@ -10,8 +10,8 @@ body{
     align-items: center;
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
     position: sticky;
-    /*top: -8px;
-    left: -8px;*/
+    top: 0px;
+    left: 0px;
     z-index:100 ;
     margin: -8px;
     height: 80px;
@@ -108,7 +108,7 @@ section{
     border-radius: 10px;
     padding:  0.5rem 2rem;
     width: 300px;
-    height: 400px;
+    height: 450px;
     text-decoration: none;
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
     margin-top: -10rem;
@@ -118,25 +118,119 @@ section{
     gap: 2rem;
     align-items: center;
 }
+.card1-header h2{
+    color: #000000;
+    font-size: 1.7rem;
+}
 
 .card1-header p{
     margin-left: auto;
     background-color: #3089c0;
     color: #ffffff;
-    padding: 0.5rem;
+    padding: 0.3rem;
     border-radius: 5px;
 
 }
+
+.text1{
+    font-size: 1.3rem;
+    /*color: rgb(161, 164, 166);*/
+    color: rgb(119, 113, 113);
+    margin-top: -0.5rem;
+}
 .card2{
+    position: relative;
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 2rem;
-    width: 300px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding:0.5rem 2rem;
+    width: 500px;
+    height: 450px;
+    color: #ffffff;
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    margin-top: -10rem;
+    /*background-image:url(../consult-us/Image/analysis.jpg);*/
+    background-image:linear-gradient( to top right, #0d5480, #629990);
+    opacity: 1;
+}
+.card2-header{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.card-header h2{
+    color: #ffffff;
+    font-size: 1.7rem;
 }
 
+.card2-header p{
+    margin-left: auto;
+    margin-right: 7%;
+    background-color: #4a12b4;
+    color: #ffffff;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+.card2-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.card2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    opacity: 0.2;
+
+}
+.text2{
+    font-size: 1.3rem;
+    margin-top: -0.5rem;
+}
+.card2-content{
+    position: absolute;
+    top: 0;
+    padding: 2rem;
+}
+.button{
+    background-color: #629990;
+    color: #ffffff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: larger;
+    margin-top: 1rem;
+}
+.button:hover{
+    background-color: #0d5480;
+}
+/*footer*/
+.social-media{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    margin-top: 10rem;
+}
+.twitter, .facebook, .pinterest{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #629990;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.twitter:hover, .facebook:hover, .pinterest:hover{
+    background-color: #0d5480;
+}
+.bookmark{
+    margin-left: auto;
+}
+.bookmark:hover{
+    color: #0d5480;
+}
