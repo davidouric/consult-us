@@ -94,6 +94,7 @@ main{
 /*section*/
 section{
     background-color: #629990;
+    padding-bottom: 5rem;
 }
 .card-container{
     display: flex;
@@ -234,3 +235,50 @@ section{
 .bookmark:hover{
     color: #0d5480;
 }
+/*TAB SECTION*/
+.tab-card{
+    background-color: #ffffff;
+}
+.topic{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5rem;
+}
+.tab {
+    overflow: hidden;
+    /*border: 1px solid #ccc;*/
+    background-color: #ffffff;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: larger;
+    color: gray;
+    gap: 5rem;
+  }
+  /* Change background color of buttons on hover */
+.tab button:hover {
+    border-bottom: 2px solid grey;
+  }
+
+  /* Create an active/current tablink class */
+.tab button.active {
+    border-bottom: 2px solid grey;
+  }
+  /* Style the tab content */
+.tabcontent {
+   display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
