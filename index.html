@@ -113,8 +113,50 @@
             </div>
             <!--tap content-->
             <div id="Design" class="tabcontent">
-                <h3>London</h3>
-                <p>London is the capital city of England.</p>
+                <div class="design-container">
+                    <div class="design-card" id="web">
+                        <div class="design-header">
+                            <h2>Web Design</h2>
+                            <span>14</span>
+                        </div>
+                        <p>
+                            Topic Listing Template based on Bootstrap 5
+                        </p>
+                        <div>
+                            <img src="../consult-us/Image/webimage1.png" width="300px" height="200px" alt="webimage1">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="design-card" id="graphic">
+                            <div class="design-header">
+                                <h2>Graphic</h2>
+                                <span>75</span>
+                            </div>
+                            <p>
+                                Lorem Ipsum dolor sit amet consectetur
+                            </p>
+                            <div>
+                                <img src="../consult-us/Image/webimage2.png" width="300px" height="200px"
+                                    alt="webimage1">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="design-card" id="logo">
+                            <div class="design-header">
+                                <h2>Logo Design</h2>
+                                <span>100</span>
+                            </div>
+                            <p>
+                                Lorem Ipsum dolor sit amet consectetur
+                            </p>
+                            <div>
+                                <img src="../consult-us/Image/webimage3.png" width="300px" height="200px"
+                                    alt="webimage1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div id="Marketing" class="tabcontent">
@@ -123,12 +165,12 @@
             </div>
 
             <div id="Finance" class="tabcontent">
-                <h3>Tokyo</h3>
-                <p>Tokyo is the capital of Japan.</p>
+                <h3>Abuja</h3>
+                <p>Abuja is the capital of Nigeria.</p>
             </div>
             <div id="Music" class="tabcontent">
-                <h3>Tokyo</h3>
-                <p>Tokyo is the capital of Japan.</p>
+                <h3>Accra</h3>
+                <p>Accra is the capital of Ghana.</p>
             </div>
 
             <div id="Education" class="tabcontent">
@@ -139,28 +181,31 @@
     </div>
     <!--Javascripts-->
     <script>
-        function Services(evt,serviceName){
+        function Services(evt, serviceName) {
             // Declare all variables
             var i, tabcontent, tablinks;
-          
+
             // Get all elements with class="tabcontent" and hide them
             tabcontent = document.getElementsByClassName("tabcontent");
             for (i = 0; i < tabcontent.length; i++) {
-              tabcontent[i].style.display = "none";
+                tabcontent[i].style.display = "none";
             }
-          
+
             // Get all elements with class="tablinks" and remove the class "active"
             tablinks = document.getElementsByClassName("tablinks");
             for (i = 0; i < tablinks.length; i++) {
-              tablinks[i].className = tablinks[i].className.replace(" active", "");
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
             }
-          
+
             // Show the current tab, and add an "active" class to the button that opened the tab
             document.getElementById(serviceName).style.display = "block";
-            evt.currentTarget.className += " active";
+            if (evt.currentTargrt.classname += "active") {
+                document.getElementById(serviceName).style.dsplay = "block"
+                evt.currentTargrt.className
+            }
         }
     </script>
-        
+
 </body>
 
 </html>
