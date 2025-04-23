@@ -102,7 +102,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding: 2rem;
+    padding: 1rem;
 }
 .card1{
     background-color: #ffffff;
@@ -157,6 +157,11 @@ section{
     display: flex;
     gap: 2rem;
     align-items: center;
+}
+#card2-now{
+    display: flex;
+    margin-top: -1rem;
+    gap: 10rem;
 }
 .card-header h2{
     color: #ffffff;
@@ -315,4 +320,106 @@ section{
   .design-card p{
     color: gray;
     font-size:x-large;
+  }
+  /*Market*/
+  .market-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .market-header span{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color:#ec0a11;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  /*finance*/
+  .finance-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  #fin-now{
+    display: flex;
+    margin-top: -1rem;
+    gap: 20rem;
+  }
+  .card1-finance{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding:  0.5rem 2rem;
+    width: 500px;
+    height: 350px;
+    text-decoration: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+   /* margin-top: -10rem;*/
+  }
+  .card2-finance{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding:0.5rem 2rem;
+    width: 500px;
+    height: 350px;
+    color: #ffffff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    /*margin-top: -10rem;*/
+    background-image:linear-gradient( to top right, #0d5480, #629990);
+    opacity: 1;
+  }
+  .social-media-finance{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    margin-top: 3rem;
+  }
+  /*Music*/
+  .music-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .music-header span{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color:#c09404;
+    border-radius: 5px;
+    padding: 5px;
+  }
+   /*Education*/
+   .education-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20rem;
+
+  }
+  #now-edu{
+    display: flex;
+    margin-top: -1rem;
+  }
+
+  .education-header span{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color:#629990;
+    border-radius: 5px;
+    padding: 5px;
+    
+  }
+  .card2-education{
+    position: relative;
+    border-radius: 10px;
+    padding:0.5rem 1rem;
+    width: 500px;
+    height: 350px;
+    color:gray;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
   }
